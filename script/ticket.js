@@ -36,7 +36,7 @@ ticketBtn.forEach(btn => {
                 <td>$550.00</td>`
         trBody.appendChild(tr);
 
-      tr.classList='flex gap-28 py-3'
+      tr.classList='flex lg:gap-28 gap-5 py-3'
 
   if(clickBtn===4){
     applyBtn.disabled=false;
